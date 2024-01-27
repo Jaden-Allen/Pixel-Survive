@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4bd337c94e421e409dbe25a425eaa8b, type: 3}
+  m_Name: extended_mag
+  m_EditorClassIdentifier: 
+  itemType: 4
+  itemData:
+    typeId: extended_mag
+    texture: {fileID: 0}
+    maxStackSize: 1
+    customGeometry: {fileID: 1679691562513306122, guid: 4caecf38424dfac4bbd2de7938c70ddc,
+      type: 3}
+    size: 1.2
+    thickness: 1
+    renderOffset: {x: 0.43, y: 0, z: 0.02}
+    renderRotation: {x: 0, y: 0, z: 0}
+    renderSize: 4.5
+    iconRenderOffset: {x: 0, y: 0, z: 0.81}
+    iconRenderRotation: {x: -9.31, y: 135, z: 0}
+  toolData:
+    maxDurability: 8
+    miningSpeed: 1
+    damage: 8
+  foodData:
+    saturation: 0
+  gunPartData:
+    type: 1
+    gunType: 0
+    attatchment: {fileID: 4107561555570062920, guid: 4caecf38424dfac4bbd2de7938c70ddc,
+      type: 3}
+    recoil: 0
+    damage: 0
+    range: 0
+    maxBullets: 10
+    damageChance: 0.1
+    durability: 5
+    aimModifier: 0
+    fireTypes: 
+  gunData:
+    gunType: 0
+    recoil: 0
+    damage: 0
+    range: 0
+    maxBullets: 0
+    fireRate: 0
+    damageChance: 0
+    maxDurability: 0
+    aimModifier: 0
+    fireTypes: 
+    emptyClip: {fileID: 0}
+    fireClip: {fileID: 0}
+    reloadClip: {fileID: 0}
+  ammoData:
+    type: 0

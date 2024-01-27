@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4bd337c94e421e409dbe25a425eaa8b, type: 3}
+  m_Name: M416
+  m_EditorClassIdentifier: 
+  itemType: 3
+  itemData:
+    typeId: m416
+    texture: {fileID: 2800000, guid: 46db0a4cf80ed2249975b72520151169, type: 3}
+    maxStackSize: 1
+    customGeometry: {fileID: 6636493995581162026, guid: bdb893962ccac8f459ebb86344ba0a4d,
+      type: 3}
+    size: 1
+    thickness: 1
+    renderOffset: {x: 0, y: -0.23, z: 0}
+    renderRotation: {x: 0, y: 0, z: 0}
+    renderSize: 1.4
+    iconRenderOffset: {x: 0.1, y: -0.5, z: 0.81}
+    iconRenderRotation: {x: -9.31, y: 135, z: 0}
+  toolData:
+    maxDurability: 0
+    miningSpeed: 1
+    damage: 1
+  foodData:
+    saturation: 0
+  gunPartData:
+    type: 0
+    gunType: 0
+    attatchment: {fileID: 0}
+    recoil: 0
+    damage: 0
+    range: 0
+    maxBullets: 0
+    damageChance: 0
+    durability: 0
+    aimModifier: 0
+    fireTypes: 
+  gunData:
+    gunType: 0
+    recoil: 8
+    damage: 2
+    range: 30
+    maxBullets: 30
+    fireRate: 0.085
+    damageChance: 0.5
+    maxDurability: 128
+    aimModifier: 10
+    fireTypes: 0000000002000000
+    emptyClip: {fileID: 8300000, guid: d9418795fa63e1a42903fc964c8fa161, type: 3}
+    fireClip: {fileID: 8300000, guid: a27b313fafa02124994c5224acf64bd9, type: 3}
+    reloadClip: {fileID: 8300000, guid: c65d33dda0685f24f9ae2ab57b21e9e5, type: 3}
+  ammoData:
+    type: 0

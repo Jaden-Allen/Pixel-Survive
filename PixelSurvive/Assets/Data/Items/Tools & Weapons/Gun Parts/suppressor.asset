@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4bd337c94e421e409dbe25a425eaa8b, type: 3}
+  m_Name: suppressor
+  m_EditorClassIdentifier: 
+  itemType: 4
+  itemData:
+    typeId: suppressor
+    texture: {fileID: 0}
+    maxStackSize: 1
+    customGeometry: {fileID: 2568927107889531202, guid: eb1ccdf8e120be44787c7c99e17c90be,
+      type: 3}
+    size: 1
+    thickness: 1
+    renderOffset: {x: 0.46, y: 0.08, z: 0}
+    renderRotation: {x: -45, y: 0, z: 0}
+    renderSize: 6
+    iconRenderOffset: {x: 0, y: 0, z: 1.6}
+    iconRenderRotation: {x: -15, y: 135, z: -15}
+  toolData:
+    maxDurability: 0
+    miningSpeed: 0
+    damage: 0
+  foodData:
+    saturation: 0
+  gunPartData:
+    type: 4
+    gunType: 0
+    attatchment: {fileID: 5422414925040697351, guid: eb1ccdf8e120be44787c7c99e17c90be,
+      type: 3}
+    recoil: -1
+    damage: -1
+    range: -10
+    maxBullets: 0
+    damageChance: 0.1
+    durability: 5
+    aimModifier: 0
+    fireTypes: 
+  gunData:
+    gunType: 0
+    recoil: 0
+    damage: 0
+    range: 0
+    maxBullets: 0
+    fireRate: 0
+    damageChance: 0
+    maxDurability: 0
+    aimModifier: 0
+    fireTypes: 
+    emptyClip: {fileID: 0}
+    fireClip: {fileID: 0}
+    reloadClip: {fileID: 0}
+  ammoData:
+    type: 0
